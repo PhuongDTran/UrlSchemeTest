@@ -7,7 +7,7 @@
 				<action android:name="android.intent.action.VIEW" />
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
-				<data android:scheme="followme" android:host="testurl" />
+				<data android:scheme="urlschemetest" android:host="testurl" />
 			</intent-filter>
 		</activity>
 	</application>
