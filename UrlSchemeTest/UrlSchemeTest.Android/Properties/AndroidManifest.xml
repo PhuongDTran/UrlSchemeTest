@@ -2,13 +2,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="UrlSchemeTest.Droid" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="27" />
 	<application android:label="UrlScheme">
-    <activity android:name=".MainActivity">
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW" />
-				<category android:name="android.intent.category.DEFAULT" />
-				<category android:name="android.intent.category.BROWSABLE" />
-				<data android:scheme="urlschemetest" android:host="testurl" />
-			</intent-filter>
-		</activity>
 	</application>
 </manifest>
